@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI Insights & Engineering Guides - Practical knowledge on AI, ML, and RAG">
+    <title>Blog - AI DataLab</title>
+        
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+      <!-- ========== NAVBAR ========== -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand gradient-text" href="#">YourBrand</a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <i class="bi bi-list fs-3" style="color: var(--text-primary);"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">Services</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <div class="dark-mode-toggle" id="darkModeToggle">
+                            <i class="bi bi-sun-fill" id="lightIcon"></i>
+                            <i class="bi bi-moon-fill d-none" id="darkIcon"></i>
+                        </div>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a href="#contact" class="btn btn-gradient">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 data-aos="fade-up">AI Insights & Engineering Guides</h1>
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        Practical AI knowledge, implementation strategies, and real-world case studies
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filters -->
+    <section class="py-4">
+        <div class="container">
+            <div class="filter-pills" data-aos="fade-up">
+                <div class="filter-pill active">All</div>
+                <div class="filter-pill">AI & ML</div>
+                <div class="filter-pill">RAG & LLMs</div>
+                <div class="filter-pill">Data Science</div>
+                <div class="filter-pill">Product & UX</div>
+                <div class="filter-pill">Engineering</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="py-5">
+        <div class="container">
+            <div class="blog-grid">
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-card-image">🤖</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">RAG & LLMs</span>
+                        <h3>Building Production-Ready RAG Systems</h3>
+                        <p>A complete guide to implementing Retrieval-Augmented Generation for enterprise applications, from data ingestion to deployment.</p>
+                        <div class="blog-meta">
+                            <span>By Sarah Chen</span>
+                            <span>·</span>
+                            <span>Jan 28, 2026</span>
+                            <span>·</span>
+                            <span>8 min read</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-card-image">📊</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Data Science</span>
+                        <h3>Vector Databases Explained</h3>
+                        <p>Understanding semantic search, embeddings, and choosing the right vector database for your AI application.</p>
+                        <div class="blog-meta">
+                            <span>By Michael Torres</span>
+                            <span>·</span>
+                            <span>Jan 25, 2026</span>
+                            <span>·</span>
+                            <span>6 min read</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-card-image">⚡</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">AI & ML</span>
+                        <h3>Fine-Tuning LLMs for Business Use</h3>
+                        <p>Learn how to customize large language models for specific domains and improve accuracy with your own data.</p>
+                        <div class="blog-meta">
+                            <span>By Alex Kumar</span>
+                            <span>·</span>
+                            <span>Jan 22, 2026</span>
+                            <span>·</span>
+                            <span>10 min read</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="blog-card-image">🎨</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Product & UX</span>
+                        <h3>Designing AI-First User Experiences</h3>
+                        <p>Best practices for creating intuitive interfaces that make complex AI features accessible to everyone.</p>
+                        <div class="blog-meta">
+                            <span>By Emma Wilson</span>
+                            <span>·</span>
+                            <span>Jan 20, 2026</span>
+                            <span>·</span>
+                            <span>7 min read</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="blog-card-image">🔧</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">Engineering</span>
+                        <h3>MLOps Best Practices for 2026</h3>
+                        <p>Infrastructure patterns and deployment strategies for scaling machine learning models in production.</p>
+                        <div class="blog-meta">
+                            <span>By David Park</span>
+                            <span>·</span>
+                            <span>Jan 18, 2026</span>
+                            <span>·</span>
+                            <span>12 min read</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="blog-detail.html" class="blog-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="blog-card-image">🚀</div>
+                    <div class="blog-card-content">
+                        <span class="blog-category">AI & ML</span>
+                        <h3>Prompt Engineering Fundamentals</h3>
+                        <p>Master the art of crafting effective prompts that unlock the full potential of language models.</p>
+                        <div class="blog-meta">
+                            <span>By Lisa Martinez</span>
+                            <span>·</span>
+                            <span>Jan 15, 2026</span>
+                            <span>·</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="py-5">
+        <div class="container">
+            <div class="cta-banner" data-aos="fade-up">
+                <h2>Stay Updated on AI Trends</h2>
+                <p>Get weekly insights, tutorials, and case studies delivered to your inbox</p>
+                <a href="contact.html" class="btn btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Subscribe to Newsletter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
+                                <path d="M12 9v12"></path>
+                                <path d="M18.5 13.5L12 21 5.5 13.5"></path>
+                            </svg>
+                            <span>AI DataLab</span>
+                        </div>
+                        <p class="footer-description">
+                            Empowering enterprises with intelligent AI solutions and data science expertise.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI & ML</a></li>
+                        <li><a href="service-detail.html">RAG Solutions</a></li>
+                        <li><a href="services.html">Data Science</a></li>
+                        <li><a href="services.html">MLOps</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="blog.html">Guides</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 AI DataLab. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span class="divider">·</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Initialize AOS & Filter functionality -->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 100
+        });
+
+        // Filter pill functionality
+        document.querySelectorAll('.filter-pill').forEach(pill => {
+            pill.addEventListener('click', function() {
+                document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+</body>
+</html>

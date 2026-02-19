@@ -1,0 +1,88 @@
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+    .hero-section {
+        padding-top: 100px;
+    }
+
+    .cta-options {
+        grid-template-columns: 1fr;
+    }
+
+
+     .cta-banner {
+        padding: 48px 24px;
+    }
+    
+    .cta-banner h2 {
+        font-size: 2rem;
+    }
+    .section {
+        padding: var(--section-padding-mobile) 0;
+    }
+    /* Hide process connector lines when cards stack */
+    .process-step-card::after {
+        display: none;
+    }
+       .metric-divider {
+        display: none;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+    }
+    
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+      .rag-flow {
+        flex-direction: column;
+        padding: 24px;
+    }
+    
+    .rag-arrow {
+        transform: rotate(90deg);
+    }
+        .stats-bar {
+        padding: 32px 24px;
+    }
+    
+    .stat-value {
+        font-size: 2rem;
+    }
+       .cta-card {
+        padding: 40px 24px;
+    }
+    
+    .cta-buttons {
+        flex-direction: column;
+    }
+    
+    .cta-buttons .btn {
+        width: 100%;
+    }
+       .footer {
+        padding: 60px 0 32px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+      .nav-links {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: block;
+    }
+      .timeline-item {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .process-step-card::after {
+        display: none;
+    }
+}

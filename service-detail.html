@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RAG-Powered AI Systems - Build accurate, context-aware AI with Retrieval-Augmented Generation">
+    <title>RAG Solutions - AI DataLab</title>
+   
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                        <path d="M12 2a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
+                        <path d="M12 9v12"></path>
+                        <path d="M18.5 13.5L12 21 5.5 13.5"></path>
+                    </svg>
+                </div>
+                <span>AI DataLab</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            
+            <a href="contact.html" class="nav-cta">Get Started</a>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="section-badge badge-purple" data-aos="fade-down">RAG Technology</div>
+                    <h1 data-aos="fade-up">RAG-Powered AI Systems</h1>
+                    <p data-aos="fade-up" data-aos-delay="100">
+                        Eliminate AI hallucinations and build context-aware systems grounded in your data
+                    </p>
+                    <a href="contact.html" class="btn btn-gradient btn-lg" data-aos="fade-up" data-aos-delay="200">
+                        Build Your RAG System
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems We Solve -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 data-aos="fade-up">Problems We Solve</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Common challenges that RAG technology addresses
+                </p>
+            </div>
+            
+            <div class="problem-grid">
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="15" y1="9" x2="9" y2="15"></line>
+                            <line x1="9" y1="9" x2="15" y2="15"></line>
+                        </svg>
+                    </div>
+                    <h4>LLM Hallucinations</h4>
+                    <p>Generic AI models invent facts—RAG grounds responses in verified data</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                        </svg>
+                    </div>
+                    <h4>Scattered Data</h4>
+                    <p>Information trapped in silos becomes instantly searchable and actionable</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h4>Slow Knowledge Retrieval</h4>
+                    <p>Semantic search finds relevant context in milliseconds, not hours</p>
+                </div>
+                
+                <div class="problem-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                            <line x1="12" y1="9" x2="12" y2="13"></line>
+                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h4>Poor AI Accuracy</h4>
+                    <p>Context-aware generation delivers precise, verifiable answers every time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Build -->
+    <section class="py-5" style="background-color: var(--color-surface);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 data-aos="fade-up">What We Build with RAG</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Production-ready RAG applications for enterprise use cases
+                </p>
+            </div>
+            
+            <div class="service-grid">
+                <div class="service-card-compact" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3>Knowledge Base Chatbots</h3>
+                    <p>AI assistants that answer questions from your documentation and databases</p>
+                </div>
+                
+                <div class="service-card-compact" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                    </div>
+                    <h3>Internal AI Search</h3>
+                    <p>Natural language search across company documents and knowledge bases</p>
+                </div>
+                
+                <div class="service-card-compact" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Document Intelligence</h3>
+                    <p>Extract insights and answer questions from contracts, reports, and PDFs</p>
+                </div>
+                
+                <div class="service-card-compact" data-aos="fade-up" data-aos-delay="400">
+                    <div class="icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                            <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+                        </svg>
+                    </div>
+                    <h3>Customer Support AI</h3>
+                    <p>Context-aware support agents that resolve issues with accurate information</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 data-aos="fade-up">Our RAG Tech Stack</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Best-in-class tools for building production RAG systems
+                </p>
+            </div>
+            
+            <div class="tech-stack" data-aos="fade-up" data-aos-delay="200">
+                <div class="tech-pill">OpenAI GPT-4</div>
+                <div class="tech-pill">Anthropic Claude</div>
+                <div class="tech-pill">LLaMA 2</div>
+                <div class="tech-pill">Pinecone</div>
+                <div class="tech-pill">FAISS</div>
+                <div class="tech-pill">Weaviate</div>
+                <div class="tech-pill">LangChain</div>
+                <div class="tech-pill">LlamaIndex</div>
+                <div class="tech-pill">AWS</div>
+                <div class="tech-pill">Google Cloud</div>
+                <div class="tech-pill">Azure</div>
+                <div class="tech-pill">PostgreSQL</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-5" style="background-color: var(--color-surface);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 data-aos="fade-up">How RAG Works</h2>
+                <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                    Our proven 4-step process for building intelligent systems
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h3>Data Ingestion</h3>
+                        <p>We connect to your data sources (documents, databases, APIs) and process them for semantic search. Supports PDFs, markdown, SQL, APIs, and more.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h3>Vector Embeddings</h3>
+                        <p>Content is converted into high-dimensional vectors that capture semantic meaning, then stored in a vector database for lightning-fast retrieval.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h3>LLM Integration</h3>
+                        <p>When users ask questions, we retrieve relevant context and provide it to the LLM, ensuring responses are grounded in your actual data.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h3>Deployment & Optimization</h3>
+                        <p>We deploy to production with monitoring, feedback loops, and continuous improvement to maintain accuracy over time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-5">
+        <div class="container">
+            <div class="cta-banner" data-aos="fade-up">
+                <h2>Let's Build Your AI System</h2>
+                <p>Schedule a consultation to discuss your RAG implementation and see how we can transform your business with accurate, context-aware AI.</p>
+                <a href="contact.html" class="btn btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Schedule a Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <div class="brand-logo">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2a3 3 0 0 0-3 3v4a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"></path>
+                                <path d="M12 9v12"></path>
+                                <path d="M18.5 13.5L12 21 5.5 13.5"></path>
+                            </svg>
+                            <span>AI DataLab</span>
+                        </div>
+                        <p class="footer-description">
+                            Empowering enterprises with intelligent AI solutions and data science expertise.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AI & ML</a></li>
+                        <li><a href="service-detail.html">RAG Solutions</a></li>
+                        <li><a href="services.html">Data Science</a></li>
+                        <li><a href="services.html">MLOps</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="blog.html">Guides</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 AI DataLab. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <span class="divider">·</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+         
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Initialize AOS -->
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 100
+        });
+    </script>
+
+</body>
+</html>

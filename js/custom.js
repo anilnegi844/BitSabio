@@ -41,6 +41,7 @@ $(document).ready(function () {
   });
 
 });
+<<<<<<< HEAD
 
 
 // Stats counter js 
@@ -96,3 +97,5 @@ document.addEventListener("DOMContentLoaded", function () {
     observer.observe(section);
 
 });
+=======
+>>>>>>> 5110bb19bb764648dd64e1602704a82dfeabceba

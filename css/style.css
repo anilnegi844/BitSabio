@@ -2,7 +2,7 @@
    AI DataLab - Custom CSS
    Modern, Glassmorphism, AI-Inspired Design
    ========================================== */
-<<<<<<< HEAD
+
 @font-face {
   font-display: block;
   font-family: "bootstrap-icons";
@@ -10,8 +10,6 @@
        url("../fonts/bootstrap-icons.woff") format("woff");
 }
 
-=======
->>>>>>> 5110bb19bb764648dd64e1602704a82dfeabceba
 
 :root {
     /* Color Palette - Light Mode with New Gradients */
@@ -201,7 +199,7 @@ img {
     padding: 16px 40px;
     font-size: 1.125rem;
 }
-<<<<<<< HEAD
+
 .modal-backdrop {
     opacity: 1 !important;
 }
@@ -226,9 +224,6 @@ img {
     cursor: pointer;
 }
 
-=======
-   
->>>>>>> 5110bb19bb764648dd64e1602704a82dfeabceba
 
 /* ==========================================
    Glass Cards

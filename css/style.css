@@ -1573,7 +1573,7 @@ html {
    ========================================== */
 
 .blog-detail-hero {
-    padding: 140px 0 60px;
+    padding: 140px 0 0px;
     text-align: center;
 }
 
@@ -1632,7 +1632,11 @@ html {
     background: none;
     padding: 0;
 }
-
+.blog-detail-img img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 /* ==========================================
    Contact Form
    ========================================== */
@@ -2261,3 +2265,108 @@ html {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* ==========================================
+   About Us Page
+   ========================================== */
+/* ==========================================
+   Page Hero (Internal Pages)
+   ========================================== */
+
+.page-hero {
+    padding: 140px 0 80px;
+    background: var(--gradient-light);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(99, 102, 241, 0.15), transparent);
+    border-radius: 50%;
+}
+
+.page-hero h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 10;
+}
+
+.page-hero p {
+    font-size: 1.25rem;
+    color: var(--color-text-secondary);
+    max-width: 700px;
+    margin: 0 auto 32px;
+    position: relative;
+    z-index: 10;
+}
+/* ==========================================
+   Service Cards (Grid Style)
+   ========================================== */
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin: 48px 0;
+}
+
+.service-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.service-card-compact {
+    background: white;
+    border: 1px solid var(--glass-border);
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.service-card-compact:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--color-primary);
+}
+
+.service-card-compact .icon {
+    width: 48px;
+    height: 48px;
+    background: var(--gradient-primary);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-card-compact h3 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: var(--color-text-primary);
+}
+
+.service-card-compact p {
+    color: var(--color-text-secondary);
+    margin-bottom: 16px;
+    font-size: 0.9375rem;
+}
+
+.service-card-compact .view-link {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
